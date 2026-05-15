@@ -1,0 +1,5 @@
+instrument_id,stage,readiness,rows,courses,target_role,nominal_range,scale_length_basis,frame_basis,build_status,next_gate
+KGH-DESK-00,S0,L1 CAD/load study,1,8-10 simulated,load path study,not musical,CAD scaffold,outline envelope only,deferred,review load path before cutting mule
+KGH-MULE-01,S1,L2 structural mule,1,10-14 physical,proof-load and service mule,mid register test set,measured after assembly,single-row frame envelope,first physical build,pass proof-load and measured-update gates
+KGH-PAIR-01,S2,L2 ergonomic paired-course mockup,2,10-14 paired,paired-course hand/bridge study,subset of final range,derived from mule measurements,revised CAD after S1,blocked until S1 passes,replace scaffold DXF and string schedule
+KGH-FAM-A4,S3,L3 deferred family member,2,full paired course,final musical prototype,A4-centered family member,measured/reference-reviewed CAD,final CAD and reviewed drawings,not authorized,requires played paired mockup evidence

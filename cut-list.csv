@@ -1,0 +1,7 @@
+part_id,part,qty,rough_size,finished_size,material,operation,yield_or_offcut,notes
+KGH-MULE-FRAME-LOWER,Lower frame rail blank,1,36 x 2.5 x 1.0 in,trim_to_CAD_after_review,hardwood or laminated birch ply,rip/plane/drill after layout review,offcut becomes bridge coupon,L2 envelope only
+KGH-MULE-FRAME-UPPER,Upper neck rail blank,1,34 x 2.0 x 1.0 in,trim_to_CAD_after_review,hardwood or laminated birch ply,rip/plane/drill after layout review,offcut becomes pin test coupon,L2 envelope only
+KGH-MULE-COLUMN,Compression column blank,1,24 x 2.5 x 1.25 in,trim_to_CAD_after_review,hardwood or laminated birch ply,rip/plane/fit joinery,offcut becomes joint coupon,Confirm neck angle from revised CAD
+KGH-MULE-SOUNDBOARD,Soundboard test panel,1,30 x 12 x 0.16 in,fit_to_frame_after_crown_review,spruce cedar or plywood,crown/brace/glue test,offcut becomes bridge glue coupon,Do not scale to final paired body yet
+KGH-MULE-BRIDGE,Bridge rail blank,1,30 x 1.25 x 0.75 in,fit_after_string_angle_review,hardwood,shape cap and bearing line,offcut becomes bearing test coupon,Inspect for lift after proof load
+KGH-PAIR-FRAME,Paired-course frame blanks,0,blocked,blocked,not selected,do not cut,none,Requires KGH-MULE-01 validation pass

@@ -1,0 +1,11 @@
+instrument_id,gate_type,check,target,measured,tolerance,environment,result,action
+KGH-MULE-01,preflight,Dxf reviewed before cutting,reviewed scaffold DXF and marked fabrication limits,,pass/fail,bench review,,revise drawing before cutting
+KGH-MULE-01,preflight,String unit weights recorded,vendor or measured unit weight for every loaded string,,pass/fail,bench review,,update string-schedule.csv before tensioning
+KGH-MULE-01,proof-load,Static load step 50 percent,50 percent planned working load for 10 minutes,,no crack joint opening or pin slip,"record temp F humidity RH",,stop and redesign failed component
+KGH-MULE-01,proof-load,Static load step 100 percent,100 percent planned working load for 24 hours,,neck lean <= 1.5 mm bridge lift <= 0.5 mm,"record temp F humidity RH",,retune structure before paired mockup
+KGH-MULE-01,proof-load,Static load step 125 percent,125 percent planned working load for 30 minutes,,no crack joint opening brace release or anchor movement,"record temp F humidity RH",,block KGH-PAIR-01 until corrected and retested
+KGH-MULE-01,measured-update,Neck lean after 24 hours,measured against baseline straightedge,,<= 1.5 mm,"loaded at working tension",,update CAD if outside target
+KGH-MULE-01,measured-update,Bridge lift after 24 hours,measured at center and ends,,<= 0.5 mm,"loaded at working tension",,revise bridge rail or soundboard support
+KGH-MULE-01,measured-update,Soundboard crown change,baseline to loaded delta,,<= 1.0 mm,"loaded at working tension",,revise brace/crown plan
+KGH-MULE-01,serviceability,Tuning access,all pins reachable with tool and hand clearance,,pass/fail,bench review,,revise paired-course spacing before KGH-PAIR-01
+KGH-PAIR-01,promotion,Paired-course build authorization,all KGH-MULE-01 gates passed and CAD revised,,pass/fail,review meeting,,do not cut paired-course frame until pass

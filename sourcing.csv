@@ -1,0 +1,7 @@
+item,required_spec,search_terms,make_buy,substitution_rule,risk,verification
+hardwood_or_laminate,stable clear frame stock or Baltic birch laminate,"hard maple blank birch plywood void free",buy or shop stock,Substitute only with equal stiffness and defect inspection,warp or joint creep under load,inspect grain and moisture before cutting
+soundboard_panel,resonant panel for mule or neutral plywood test panel,"spruce soundboard cedar soundboard thin aircraft plywood",buy or shop stock,Prototype plywood is acceptable for structural mule,acoustic result not final,record material and thickness in validation.csv
+tuning_pins,supplier-documented zither or harp pins,"zither tuning pins harp pins",buy,Do not use unknown pins for proof load,pin slip or split rail,record pin diameter and pilot drill
+hitch_pins,documented steel pins or reviewed anchor hardware,"harp hitch pins music wire anchor pins",buy,Substitute only after pull-test,anchor pullout,record supplier and pull-test result
+strings,vendor unit weights for nylon or fluorocarbon gauges,"harp string nylon fluorocarbon unit weight",buy,No final tension claim without unit weight,overstress from guessed gauge,record vendor data in string-schedule.csv
+measurement_kit,load and deflection measurement tools,"load cell spring scale dial indicator hygrometer",buy or borrow,Equivalent calibrated tools are fine,unreliable proof-load evidence,record calibration or tool model

@@ -1,0 +1,9 @@
+instrument_id,string_id,row,course_role,target_note,target_frequency_hz,starting_speaking_length_mm,string_material_start,string_gauge_start,unit_weight_source,calculated_tension_lbf,measured_speaking_length_mm,measured_tension_lbf,status,notes
+KGH-MULE-01,S01,single,mule,G3,196.00,620,nylon or fluorocarbon,0.030-0.034 in,vendor_required,,,"",planned,Use as first low-load string after frame inspection
+KGH-MULE-01,S02,single,mule,A3,220.00,590,nylon or fluorocarbon,0.028-0.032 in,vendor_required,,,"",planned,Confirm clearance over bridge before tuning
+KGH-MULE-01,S03,single,mule,C4,261.63,550,nylon or fluorocarbon,0.026-0.030 in,vendor_required,,,"",planned,Representative mid-register load
+KGH-MULE-01,S04,single,mule,D4,293.66,520,nylon or fluorocarbon,0.024-0.028 in,vendor_required,,,"",planned,Track pin slip during proof load
+KGH-MULE-01,S05,single,mule,E4,329.63,490,nylon or fluorocarbon,0.022-0.026 in,vendor_required,,,"",planned,Use measured unit weight before any final claim
+KGH-MULE-01,S06,single,mule,G4,392.00,450,nylon or fluorocarbon,0.020-0.024 in,vendor_required,,,"",planned,High side mule load and bridge clearance check
+KGH-PAIR-01,P01-A,near,paired-course,G3,196.00,derived_from_mule,not_selected,not_selected,vendor_required,,,"",blocked,Do not cut or string before KGH-MULE-01 passes
+KGH-PAIR-01,P01-B,far,paired-course,G3,196.00,derived_from_mule,not_selected,not_selected,vendor_required,,,"",blocked,Pair spacing and access require revised CAD

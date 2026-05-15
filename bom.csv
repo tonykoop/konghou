@@ -1,0 +1,9 @@
+item,part,qty,material_spec,make_buy,drawing_ref,notes
+BOM-001,Single-row mule frame set,1,"hard maple, birch ply laminate, or equivalent prototype hardwood",make,drawings/konghou-single-row-mule-layout.dxf,Scaffold envelope only; final species and joinery require review
+BOM-002,Soundboard test panel,1,"quarter-sawn spruce, cedar, or thin plywood test panel",make,drawing-brief.md,Use coupon or offcut first to test bridge glue and crown
+BOM-003,Bridge rail and cap,1,"hardwood bridge rail with replaceable bearing cap",make,drawings/konghou-single-row-mule-layout.dxf,Must allow inspection for lift after proof load
+BOM-004,Tuning pin set,14,"zither or harp pins sized from supplier data",buy,string-schedule.csv,Final hole size depends on real pin spec
+BOM-005,Hitch pin or anchor set,14,"music wire hitch pins or reviewed anchor hardware",buy,string-schedule.csv,Do not substitute unknown fasteners for proof load
+BOM-006,Prototype string set,1,"nylon or fluorocarbon gauges selected from vendor unit weights",buy,string-schedule.csv,Vendor unit weight required before calculated tension claim
+BOM-007,Proof-load and measurement kit,1,"spring scale or load cell, dial indicator, straightedge, tuner, hygrometer",buy,validation.csv,Required before promotion to paired-course mockup
+BOM-008,Concept image packet,0,"generated images only if recorded as concept support",deferred,visual-bom-brief.md,Generated images are not fabrication authority

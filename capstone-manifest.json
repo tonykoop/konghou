@@ -1,0 +1,36 @@
+{
+  "packet": "konghou-modern-family",
+  "issue": "https://github.com/tonykoop/instrument-maker/issues/154",
+  "readiness": "L2 prototype scaffold",
+  "primary_build": "KGH-MULE-01",
+  "blocked_build": "KGH-PAIR-01",
+  "fabrication_authority": {
+    "current": [
+      "drawings/konghou-single-row-mule-layout.dxf",
+      "drawing-brief.md",
+      "validation.csv"
+    ],
+    "limits": "DXF is mule review authority only; final paired-course fabrication requires revised CAD/DXF and measured data."
+  },
+  "artifacts": [
+    "README.md",
+    "design.md",
+    "family-spec.csv",
+    "string-schedule.csv",
+    "bom.csv",
+    "cut-list.csv",
+    "sourcing.csv",
+    "validation.csv",
+    "assembly-manual.md",
+    "drawing-brief.md",
+    "visual-bom-brief.md",
+    "risks.md",
+    "supplier-rfq.md",
+    "wolfram-starter.wl",
+    "capstone-deck.md",
+    "print-packet.md",
+    "print-packet.html",
+    "drawings/konghou-single-row-mule-layout.dxf"
+  ],
+  "promotion_gate": "All KGH-MULE-01 proof-load and measured-update checks must pass before KGH-PAIR-01 is authorized."
+}
