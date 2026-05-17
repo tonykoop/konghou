@@ -23,6 +23,8 @@ be checked against measured stringing and deflection data before any shop work.
   load.
 - `validation-loop.csv` - first validation plan for deflection, tuning, string
   breakage risk, and pitch verification.
+- `tension-study.csv` - empty calculation ledger for future per-string tension,
+  supplier limit, safety factor, and frame-load component evidence.
 - `drawing-brief.md` - future CAD/DXF authority plan and concept-image boundary.
 - `wolfram-study-notes.md` - optional frame-load/string-tension study notes; no
   Wolfram runtime evidence has been recorded yet.

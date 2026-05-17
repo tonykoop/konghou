@@ -63,6 +63,10 @@ Starter assumptions are placeholders, not build instructions:
 - Tension assumption: total frame load is unknown. It must be calculated from
   string unit weight, speaking length, target pitch, and selected gauge before
   hardware purchase or fabrication.
+- Tension ledger: `tension-study.csv` is the future calculation record for
+  per-string tension, supplier limits, safety factors, and frame-load components.
+  Its starter row is intentionally blocked until measured or supplier-backed
+  string data exists.
 
 ## Historical Inspiration vs Build Authority
 
