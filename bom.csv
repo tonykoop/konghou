@@ -1,0 +1,11 @@
+item_id,item,role,qty,material_spec,status,source_status,measurement_or_rating_required,notes
+BOM-001,string set,candidate strings,TBD,"nylon, fluorocarbon, gut, brass, bronze, or steel candidates",planned,unverified,unit weight/gauge/tension rating,Do not purchase until scale length and target pitch plan are set.
+BOM-002,soundboard,resonating plate,1,TBD resonant wood or laminate,planned,unverified,thickness/grain/bracing/bridge footprint,No acoustic or structural claim yet.
+BOM-003,frame/neck stock,primary load path,TBD,TBD hardwood/laminated wood/composite,planned,unverified,cross-section/load capacity/deflection,Frame dimensions must follow tension study.
+BOM-004,pillar or compression member,frame support,1,TBD,planned,unverified,buckling and joint capacity,Required if final architecture uses a frame-harp load path.
+BOM-005,bridge stock,string bearing / soundboard transfer,TBD,TBD hardwood/bone/synthetic,planned,unverified,bearing angle/contact width/adhesion or fastening,Bridge lift is a primary safety and tuning risk.
+BOM-006,nut or string guide,upper bearing/spacing,TBD,TBD hardwood/bone/synthetic/metal,planned,unverified,string spacing and wear resistance,Must not cut or kink selected string material.
+BOM-007,tuning pins or machines,tension adjustment,TBD,TBD,planned,unverified,pull-out torque/string tension compatibility,Use only rated hardware after tension calculation.
+BOM-008,hitch pins / anchors,string termination,TBD,TBD,planned,unverified,shear/pull-out capacity,Anchor failure can release stored string energy.
+BOM-009,temporary shield,first-tension safety,1,clear polycarbonate or equivalent,planned,unverified,coverage and mounting method,Use for first staged tension tests.
+BOM-010,measurement tools,validation,TBD,"tuner, calipers, ruler, deflection gauge, scale",planned,unverified,resolution/calibration,Needed before claiming pitch or deflection evidence.

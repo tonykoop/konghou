@@ -1,0 +1,8 @@
+source_id,item,vendor_or_source_type,search_terms_or_provenance,status,source_status,verify_before_use,notes
+SRC-001,strings,string supplier search,"harp strings, zither strings, music wire, fluorocarbon instrument strings",candidate,unverified,"current availability, gauge chart, unit weight, tension limits",No platform-ready purchase claim.
+SRC-002,tuning pins or machines,instrument hardware supplier search,"harp tuning pins, zither tuning pins, small harp machines",candidate,unverified,"pull-out rating, torque behavior, compatible string material",Hardware must match calculated load.
+SRC-003,soundboard material,lutherie or lumber supplier search,"spruce soundboard, cedar soundboard, thin resonant laminate",candidate,unverified,"actual thickness, grain, defects, moisture content",Material selection changes acoustic and structural behavior.
+SRC-004,frame stock,lumber/composite supplier search,"hard maple, birch ply, laminated hardwood, carbon reinforcement",candidate,unverified,"straightness, dimensions, strength, glue compatibility",No frame sizing without load study.
+SRC-005,bridge/nut materials,lutherie hardware or shop stock,"bridge hardwood, bone nut blank, acetal, brass bearing",candidate,unverified,"wear behavior, string contact, fastening method",Avoid sharp bearing surfaces.
+SRC-006,reference evidence,library/museum/public-source research,"konghou history, Chinese harp, arched harp, frame harp construction",research-needed,unverified,"citation quality, permissions, dimensional evidence","Historical references inform provenance, not dimensions."
+SRC-007,safety shield,shop safety supplier,"polycarbonate sheet, clear machine guard",candidate,unverified,"impact resistance, thickness, mounting clearance",Use during early tension testing.
