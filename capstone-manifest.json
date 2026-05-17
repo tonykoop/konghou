@@ -15,6 +15,8 @@
       "drawing-brief.md",
       "validation.csv",
       "frame-string-scaling.csv",
+      "proof-load-coupon-plan.md",
+      "frame-string-evidence-register.csv",
       "visual-output-register.csv"
     ],
     "limits": "CAD and DXF are mule review scaffolds only; final paired-course fabrication requires measured string data, revised CAD/DXF, supplier hardware ratings, and proof-load evidence."
@@ -26,6 +28,8 @@
     "string-schedule.csv",
     "bom.csv",
     "cut-list.csv",
+    "proof-load-coupon-plan.md",
+    "frame-string-evidence-register.csv",
     "sourcing.csv",
     "validation.csv",
     "validation-loop.csv",

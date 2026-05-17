@@ -5,3 +5,5 @@ VIS-001,visual-bom-brief.md,image_gen_2_prompt,visual_bom,concept_only,drawing-b
 PRINT-001,print-packet.md,render_preview,derived_preview,reference_only,README.md,none,false,README.md,self_checked,Printable index summarizes packet files and does not create geometry.
 PRINT-002,print-packet.html,render_preview,derived_preview,reference_only,print-packet.md,none,false,print-packet.md,self_checked,HTML print index is derivative documentation only.
 SCALE-001,frame-string-scaling.csv,design_table,concept,reference_only,,none,false,validation-loop.csv,self_checked,Mule-to-family scaling ledger is a blocked review table only; it does not control fabrication dimensions.
+PLAN-001,proof-load-coupon-plan.md,procedure,reference_plan,reference_only,,none,false,validation-loop.csv,self_checked,Proof-load coupon plan is required evidence-prep before scaling or promotion.
+REG-001,frame-string-evidence-register.csv,design_table,reference_only,reference_only,,none,false,validation-loop.csv,self_checked,Frame/string evidence register blocks `KGH-PAIR-01` until each row has measured support.
