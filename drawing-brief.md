@@ -13,6 +13,7 @@ Generated concept images, mood boards, or visual BOM renderings may support comm
 - Bridge/soundboard section showing bridge cap, bearing line, crown, brace location, and inspection access.
 - Paired-course spacing study with near/far row hand clearance and tuning-tool access.
 - Load-path diagram showing expected force components and proof-load measurement points.
+- Scaling review sheet mapping `frame-string-scaling.csv` rows to revised CAD/DXF callouts after mule proof-load evidence exists.
 
 ## Critical Dimensions
 
@@ -23,6 +24,7 @@ Generated concept images, mood boards, or visual BOM renderings may support comm
 | Bridge lift | `validation.csv` | Structural promotion gate |
 | Pin edge distance | Supplier pin size plus coupon test | Split prevention |
 | Paired row spacing | Revised CAD after mule review | Ergonomic and serviceability gate |
+| Mule-to-family scaling decisions | `frame-string-scaling.csv`, resolved after mule tests | Promotion gate only; not current fabrication authority |
 
 ## Existing Drawings
 

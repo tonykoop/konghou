@@ -9,6 +9,7 @@ Promote a modern konghou-inspired paired-course family while keeping the first p
 - Single-row mule packet with DXF review layout.
 - BOM, cut list, sourcing, and string schedule.
 - Proof-load validation gates.
+- Mule-to-family frame and string scaling ledger.
 - Concept-image rules that keep generated images out of fabrication authority.
 
 # Readiness
@@ -27,9 +28,15 @@ The initial validation target is structural: 50 percent, 100 percent, and 125 pe
 
 The string schedule includes target notes and starting speaking-length envelopes only. Calculated tension cells remain empty until vendor or measured unit weights are recorded.
 
+# Frame/String Scaling
+
+`frame-string-scaling.csv` blocks the paired-course path until mule tension,
+scale fan, row spacing, frame section, bridge/soundboard transfer, and visual
+authority rows have measured or reviewed evidence.
+
 # DXF Authority
 
-The included DXF is mule review authority only. It must be replaced before paired-course fabrication.
+The included DXF is a mule review scaffold only. It must be replaced before paired-course fabrication.
 
 # Visual Authority
 

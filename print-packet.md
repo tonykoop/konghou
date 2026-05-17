@@ -21,6 +21,7 @@ This is an L2 prototype packet for a modern konghou family. It preserves the dou
 | `validation-loop.csv` | Evidence loop for V5 promotion. |
 | `tension-study.csv` | Per-string tension ledger. |
 | `frame-load-ledger.csv` | Structural load ledger. |
+| `frame-string-scaling.csv` | Mule-to-family scaling gates. |
 | `material-study.csv` | Candidate material/coupon study. |
 | `drawing-brief.md` | CAD/DXF requirements. |
 | `visual-output-register.csv` | Authority chain for CAD, DXF, print, and concept outputs. |

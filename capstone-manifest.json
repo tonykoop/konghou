@@ -1,6 +1,7 @@
 {
   "packet": "konghou-modern-family",
-  "issue": "https://github.com/tonykoop/instrument-maker/issues/154",
+  "issue": "https://github.com/tonykoop/konghou/issues/1",
+  "source_migration_context": "https://github.com/tonykoop/instrument-maker/issues/154",
   "readiness": "L2 V5 build-packet candidate",
   "primary_build": "KGH-MULE-01",
   "blocked_build": "KGH-PAIR-01",
@@ -13,6 +14,7 @@
     "authority_tracking": [
       "drawing-brief.md",
       "validation.csv",
+      "frame-string-scaling.csv",
       "visual-output-register.csv"
     ],
     "limits": "CAD and DXF are mule review scaffolds only; final paired-course fabrication requires measured string data, revised CAD/DXF, supplier hardware ratings, and proof-load evidence."
@@ -29,6 +31,7 @@
     "validation-loop.csv",
     "tension-study.csv",
     "frame-load-ledger.csv",
+    "frame-string-scaling.csv",
     "material-study.csv",
     "assembly-manual.md",
     "drawing-brief.md",

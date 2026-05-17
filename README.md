@@ -2,7 +2,9 @@
 
 Generated: 2026-05-11
 
-Issue: <https://github.com/tonykoop/instrument-maker/issues/154>
+Primary issue: <https://github.com/tonykoop/konghou/issues/1>
+
+Source migration context: <https://github.com/tonykoop/instrument-maker/issues/154>
 
 Status: L2 V5 build-packet candidate
 
@@ -36,6 +38,7 @@ This is an L2 prototype packet. It is a canonical repo starting point for the mo
 | `validation-loop.csv` | V5 validation loop tying tension, material, CAD, and proof-load evidence to promotion gates. |
 | `tension-study.csv` | Per-string tension and frame-load ledger; all calculated fields stay blocked until supplier or measured unit weights exist. |
 | `frame-load-ledger.csv` | Frame, bridge, soundboard, pin, and anchor load ledger for proof-load review. |
+| `frame-string-scaling.csv` | Mule-to-paired-course scaling gates for string load, scale fan, row spacing, frame section, soundboard transfer, and visual authority. |
 | `material-study.csv` | Candidate material study for frame, soundboard, pins, strings, bridge, and finish. |
 | `assembly-manual.md` | Shop sequence for the mule and promotion review. |
 | `drawing-brief.md` | Required CAD/DXF views and fabrication authority rules. |
@@ -59,6 +62,7 @@ The modern double-row identity is preserved as the family goal, but the paired-c
 
 - Replace scaffold string data with supplier-backed or measured unit weights in `tension-study.csv`.
 - Review or regenerate CAD/DXF from measured dimensions before any fabrication claim.
+- Use `frame-string-scaling.csv` before promoting `KGH-PAIR-01`; every scaling row is blocked until measured mule, supplier, CAD, or proof-load evidence replaces the current scaffold basis.
 - Record MCP or external creative-tool provenance for every generated or modified artifact in `cad/mcp-session-log.md`.
 - Keep concept images and visual BOM plates marked `concept_only`; do not trace them into cut files.
 - Run the Wolfram starter only when `wolframscript`, Wolfram Desktop, or Wolfram Cloud is actually available, then commit the command, date, and outputs before claiming runtime validation.
