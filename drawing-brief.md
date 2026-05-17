@@ -27,3 +27,12 @@ Generated concept images, mood boards, or visual BOM renderings may support comm
 ## Existing Drawings
 
 - `drawings/konghou-single-row-mule-layout.dxf`
+- `cad/konghou-mule-load-path.scad`
+
+## V5 Register
+
+Authority status for drawings, CAD, print indexes, and concept prompts is
+recorded in `visual-output-register.csv`. The current OpenSCAD source is
+`cad_source` for review only, and the DXF remains `pending_measurement` until
+the scaffold variables are replaced by measured data and the drawing is
+reviewed.

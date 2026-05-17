@@ -4,7 +4,9 @@ Packet folder: `docs/build-packets/konghou-modern-family`
 
 ## Read This First
 
-This is an L2 prototype packet for a modern konghou family. It preserves the double-row, paired-course destination while requiring a single-row structural mule before final fabrication.
+Status: L2 V5 build-packet candidate.
+
+This is an L2 prototype packet for a modern konghou family. It preserves the double-row, paired-course destination while requiring a single-row structural mule before final fabrication. The packet is not build-ready until the tension ledger, material coupons, CAD/DXF review, and proof-load evidence are complete.
 
 ## Core Files
 
@@ -16,7 +18,13 @@ This is an L2 prototype packet for a modern konghou family. It preserves the dou
 | `bom.csv` | Materials and tools. |
 | `cut-list.csv` | Mule-first stock envelopes. |
 | `validation.csv` | Proof-load gates. |
+| `validation-loop.csv` | Evidence loop for V5 promotion. |
+| `tension-study.csv` | Per-string tension ledger. |
+| `frame-load-ledger.csv` | Structural load ledger. |
+| `material-study.csv` | Candidate material/coupon study. |
 | `drawing-brief.md` | CAD/DXF requirements. |
+| `visual-output-register.csv` | Authority chain for CAD, DXF, print, and concept outputs. |
+| `cad/mcp-session-log.md` | V5 provenance log. |
 | `visual-bom-brief.md` | Concept-image guardrails. |
 
 ## Shop Rule

@@ -12,7 +12,7 @@ This packet promotes the modern konghou as a paired-course, double-row target fa
 
 - **Final identity:** modern konghou-inspired harp family with paired courses or double-row playing surface.
 - **First build:** single-row structural mule with the same frame style, bridge/soundboard load path, and service assumptions as the target family.
-- **Readiness:** L2 prototype scaffold. Do not treat any dimension here as final fabrication data until updated from measured CAD and a proof-loaded mule.
+- **Readiness:** L2 V5 build-packet candidate. Do not treat any dimension here as final fabrication data until updated from measured string data, reviewed CAD/DXF, supplier hardware ratings, and a proof-loaded mule.
 
 ## Staged Build Path
 
@@ -45,6 +45,17 @@ The mule is not meant to prove the full paired-course sound. It proves load path
 - The mule uses fewer courses than the final instrument, but keeps the target bridge line and anchor geometry representative.
 - Soundboard thickness, brace pattern, and string gauges are starting variables, not proven final specs.
 - Adhesives, pins, and hardware must be selected from actual supplier data before load testing.
+- `cad/konghou-mule-load-path.scad` is a source-only load-path scaffold. It is useful for CAD review, but it does not authorize cutting because the dimensions still trace to packet assumptions.
+- `drawings/konghou-single-row-mule-layout.dxf` is a pending-measurement review drawing. It must be replaced or reviewed against measured variables before any L3 fabrication language is used.
+
+## V5 Authority Chain
+
+| Artifact | Current authority | Promotion requirement |
+| --- | --- | --- |
+| `cad/konghou-mule-load-path.scad` | `cad_source` scaffold | Replace placeholder parameters with measured string spacing, bridge offsets, frame sections, and reviewed joinery. |
+| `drawings/konghou-single-row-mule-layout.dxf` | `pending_measurement` mule review layout | Regenerate or mark reviewed after DXF units, layers, dimensions, and load-path callouts match measured CAD data. |
+| `visual-bom-brief.md` prompt seed | `concept_only` | Any generated image stays non-dimensional unless rebuilt from reviewed CAD and logged as a derived preview. |
+| `wolfram-starter.wl` | source-only analysis starter | Runtime validation requires an actual Wolfram execution log and committed outputs. |
 
 ## Promotion Gates
 

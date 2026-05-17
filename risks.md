@@ -11,7 +11,9 @@
 
 - **String tension guessed from gauge alone:** Do not claim calculated tension until unit weight comes from the vendor or a measured sample.
 - **Scaffold DXF mistaken for final CAD:** The included DXF is marked mule review only; replace it before paired-course cuts.
+- **OpenSCAD scaffold mistaken for fabrication authority:** `cad/konghou-mule-load-path.scad` is an L2 review scaffold until every parameter traces to measured or reviewed data.
 - **Concept images interpreted as dimensions:** Generated visuals are communication support only.
+- **Material choice treated as settled too early:** `material-study.csv` records candidates and coupon gates; no frame, bridge, pin, or string material is proven yet.
 
 ## Readiness Risk
 
