@@ -16,3 +16,8 @@
 ## Prompt Seed
 
 Create a clear workshop concept plate for a modern konghou prototype program: on the left, a simple single-row structural mule frame with visible tuning pins, hitch pins, bridge rail, soundboard test panel, load-cell measurement, and dial indicator; on the right, a ghosted paired-course future mockup marked as blocked until proof-load passes. Neutral shop background, readable labels, no fabricated final dimensions.
+
+Non-dimensional guard: this prompt may only produce a concept or communication
+image. Any resulting image must be logged in `visual-output-register.csv` and
+`cad/mcp-session-log.md` as `concept_only`; it must not be traced into CAD,
+DXF, toolpaths, or a cut list.

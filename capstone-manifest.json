@@ -1,16 +1,18 @@
 {
   "packet": "konghou-modern-family",
   "issue": "https://github.com/tonykoop/instrument-maker/issues/154",
-  "readiness": "L2 prototype scaffold",
+  "readiness": "L2 V5 build-packet candidate",
   "primary_build": "KGH-MULE-01",
   "blocked_build": "KGH-PAIR-01",
   "fabrication_authority": {
     "current": [
+      "cad/konghou-mule-load-path.scad",
       "drawings/konghou-single-row-mule-layout.dxf",
       "drawing-brief.md",
-      "validation.csv"
+      "validation.csv",
+      "visual-output-register.csv"
     ],
-    "limits": "DXF is mule review authority only; final paired-course fabrication requires revised CAD/DXF and measured data."
+    "limits": "CAD and DXF are mule review scaffolds only; final paired-course fabrication requires measured string data, revised CAD/DXF, supplier hardware ratings, and proof-load evidence."
   },
   "artifacts": [
     "README.md",
@@ -21,8 +23,13 @@
     "cut-list.csv",
     "sourcing.csv",
     "validation.csv",
+    "validation-loop.csv",
+    "tension-study.csv",
+    "frame-load-ledger.csv",
+    "material-study.csv",
     "assembly-manual.md",
     "drawing-brief.md",
+    "visual-output-register.csv",
     "visual-bom-brief.md",
     "risks.md",
     "supplier-rfq.md",
@@ -30,7 +37,9 @@
     "capstone-deck.md",
     "print-packet.md",
     "print-packet.html",
-    "drawings/konghou-single-row-mule-layout.dxf"
+    "drawings/konghou-single-row-mule-layout.dxf",
+    "cad/konghou-mule-load-path.scad",
+    "cad/mcp-session-log.md"
   ],
   "promotion_gate": "All KGH-MULE-01 proof-load and measured-update checks must pass before KGH-PAIR-01 is authorized."
 }
