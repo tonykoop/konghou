@@ -23,6 +23,24 @@ This packet promotes the modern konghou as a paired-course, double-row target fa
 | S2 | `KGH-PAIR-01` | Paired-course ergonomic mockup | Allowed only after S1 passes and the string schedule has measured tension data. |
 | S3 | `KGH-FAM-*` | Final family scaling | Deferred until at least one paired-course mockup is played and measured. |
 
+## Mule-To-Family Scaling
+
+`frame-string-scaling.csv` is the follow-up ledger for moving from the
+single-row mule to the paired-course family. It does not authorize fabrication.
+It names the evidence that must replace scaffold assumptions before a wider
+frame, doubled row, revised soundboard, or final family member can be promoted.
+
+The scaling path is intentionally conservative:
+
+- do not extrapolate total frame load until every loaded mule string has a
+  supplier-backed or measured unit weight and calculated safety factor;
+- do not set paired-course row spacing from concept visuals; require a bench
+  mockup with tuning-tool access and near/far hand-clearance notes;
+- do not resize the neck rail, pin rail, bridge, or soundboard from the current
+  OpenSCAD scaffold until the mule proof-load rows have measured deflection;
+- do not use L3 or build-ready language for `KGH-FAM-*` until the paired-course
+  mockup has played notes, revised CAD/DXF, and recorded physical validation.
+
 ## Acoustic And Structural Model
 
 The string model is Mersenne-Taylor:
@@ -54,6 +72,7 @@ The mule is not meant to prove the full paired-course sound. It proves load path
 | --- | --- | --- |
 | `cad/konghou-mule-load-path.scad` | `reference_only` CAD scaffold | Replace placeholder parameters with measured string spacing, bridge offsets, frame sections, and reviewed joinery before fabrication use. |
 | `drawings/konghou-single-row-mule-layout.dxf` | `reference_only` mule review layout | Regenerate or mark reviewed after DXF units, layers, dimensions, and load-path callouts match measured CAD data. |
+| `frame-string-scaling.csv` | `reference_only` scaling ledger | Replace blocked scaffold rows with measured mule, supplier, CAD/DXF, and proof-load evidence before scaling the paired-course frame. |
 | `visual-bom-brief.md` prompt seed | `concept_only` | Any generated image stays non-dimensional unless rebuilt from reviewed CAD and logged as a derived preview. |
 | `wolfram-starter.wl` | source-only analysis starter | Runtime validation requires an actual Wolfram execution log and committed outputs. |
 

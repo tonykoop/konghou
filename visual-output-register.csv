@@ -4,3 +4,4 @@ DXF-001,drawings/konghou-single-row-mule-layout.dxf,dxf,concept,reference_only,,
 VIS-001,visual-bom-brief.md,image_gen_2_prompt,visual_bom,concept_only,drawing-brief.md,none,false,drawing-brief.md,self_checked,Prompt seed may produce concept visuals only; do not trace into CAD or DXF.
 PRINT-001,print-packet.md,render_preview,derived_preview,reference_only,README.md,none,false,README.md,self_checked,Printable index summarizes packet files and does not create geometry.
 PRINT-002,print-packet.html,render_preview,derived_preview,reference_only,print-packet.md,none,false,print-packet.md,self_checked,HTML print index is derivative documentation only.
+SCALE-001,frame-string-scaling.csv,design_table,concept,reference_only,,none,false,validation-loop.csv,self_checked,Mule-to-family scaling ledger is a blocked review table only; it does not control fabrication dimensions.
