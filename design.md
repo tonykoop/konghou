@@ -52,8 +52,8 @@ The mule is not meant to prove the full paired-course sound. It proves load path
 
 | Artifact | Current authority | Promotion requirement |
 | --- | --- | --- |
-| `cad/konghou-mule-load-path.scad` | `cad_source` scaffold | Replace placeholder parameters with measured string spacing, bridge offsets, frame sections, and reviewed joinery. |
-| `drawings/konghou-single-row-mule-layout.dxf` | `pending_measurement` mule review layout | Regenerate or mark reviewed after DXF units, layers, dimensions, and load-path callouts match measured CAD data. |
+| `cad/konghou-mule-load-path.scad` | `reference_only` CAD scaffold | Replace placeholder parameters with measured string spacing, bridge offsets, frame sections, and reviewed joinery before fabrication use. |
+| `drawings/konghou-single-row-mule-layout.dxf` | `reference_only` mule review layout | Regenerate or mark reviewed after DXF units, layers, dimensions, and load-path callouts match measured CAD data. |
 | `visual-bom-brief.md` prompt seed | `concept_only` | Any generated image stays non-dimensional unless rebuilt from reviewed CAD and logged as a derived preview. |
 | `wolfram-starter.wl` | source-only analysis starter | Runtime validation requires an actual Wolfram execution log and committed outputs. |
 

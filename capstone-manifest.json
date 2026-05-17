@@ -5,9 +5,12 @@
   "primary_build": "KGH-MULE-01",
   "blocked_build": "KGH-PAIR-01",
   "fabrication_authority": {
-    "current": [
+    "current": [],
+    "review_scaffolds": [
       "cad/konghou-mule-load-path.scad",
-      "drawings/konghou-single-row-mule-layout.dxf",
+      "drawings/konghou-single-row-mule-layout.dxf"
+    ],
+    "authority_tracking": [
       "drawing-brief.md",
       "validation.csv",
       "visual-output-register.csv"
