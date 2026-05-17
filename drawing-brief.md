@@ -2,7 +2,7 @@
 
 ## Fabrication Authority
 
-`drawings/konghou-single-row-mule-layout.dxf` is the current review layout for `KGH-MULE-01`. It is prototype authority for the mule envelope only. It is not final paired-course fabrication authority.
+`drawings/konghou-single-row-mule-layout.dxf` is the current review layout for `KGH-MULE-01`. It is a reference-only mule envelope scaffold, not final paired-course fabrication authority.
 
 Generated concept images, mood boards, or visual BOM renderings may support communication, but they must not override CAD, DXF, measured templates, supplier string data, or proof-load results.
 
@@ -32,7 +32,6 @@ Generated concept images, mood boards, or visual BOM renderings may support comm
 ## V5 Register
 
 Authority status for drawings, CAD, print indexes, and concept prompts is
-recorded in `visual-output-register.csv`. The current OpenSCAD source is
-`cad_source` for review only, and the DXF remains `pending_measurement` until
-the scaffold variables are replaced by measured data and the drawing is
-reviewed.
+recorded in `visual-output-register.csv`. The current OpenSCAD source and DXF
+are registered as `reference_only` review scaffolds until the scaffold
+variables are replaced by measured data and the drawing is reviewed.

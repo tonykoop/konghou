@@ -11,4 +11,7 @@ source-control provenance for review, not evidence of tool execution.
 | 2026-05-17T15:52:45Z | design-table | frame-load-ledger.csv | unknown | tension-study.csv | analysis_only | Load ledger maps proof gates; no measured loads yet. |
 | 2026-05-17T15:52:45Z | design-table | material-study.csv | unknown | risks.md | analysis_only | Candidate materials require coupon and supplier evidence. |
 | 2026-05-17T15:52:45Z | design-table | drawings/konghou-single-row-mule-layout.dxf | unknown | drawing-brief.md | cad_source | Existing DXF is review layout only and remains pending measured review. |
+| 2026-05-17T16:08:46Z | design-table | visual-bom-brief.md | unknown | drawing-brief.md | concept_only | Prompt seed is concept-only and not dimensional evidence. |
+| 2026-05-17T16:08:46Z | design-table | print-packet.md | unknown | README.md | reference_only | Print index summarizes packet files and adds no geometry. |
+| 2026-05-17T16:08:46Z | design-table | print-packet.html | unknown | print-packet.md | reference_only | HTML print index is derivative documentation only. |
 | 2026-05-17T15:52:45Z | wolfram | wolfram-starter.wl | unknown | string-schedule.csv | analysis_only | Source-only starter; no runtime execution claimed. |

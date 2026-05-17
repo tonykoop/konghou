@@ -1,7 +1,6 @@
-artifact_id,path,artifact_kind,authority,controlling_source,review_status,dimension_claim,notes
-CAD-001,cad/konghou-mule-load-path.scad,cad_source,cad_source,family-spec.csv; string-schedule.csv,self_checked,scaffold_variables_only,Source-only load-path scaffold for review; not build-ready.
-DXF-001,drawings/konghou-single-row-mule-layout.dxf,dxf_review_layout,pending_measurement,cad/konghou-mule-load-path.scad,self_checked,review_layout_only,Existing mule layout sketch remains pending measured CAD review.
-VIS-001,visual-bom-brief.md,concept_prompt,concept_only,drawing-brief.md,self_checked,non_dimensional,Prompt seed may produce concept visuals only; do not trace into CAD or DXF.
-PRINT-001,print-packet.md,print_index,derived_preview,README.md,self_checked,no_new_dimensions,Printable index summarizes packet files and does not create geometry.
-PRINT-002,print-packet.html,print_index,derived_preview,print-packet.md,self_checked,no_new_dimensions,HTML print index is derivative documentation only.
-WLF-001,wolfram-starter.wl,analysis_source,analysis_only,string-schedule.csv,self_checked,source_only,No Wolfram runtime execution has been claimed.
+artifact_id,path,artifact_kind,role,authority,derived_from,dimension_claim,fabrication_required,controlling_source,review_status,notes
+CAD-001,cad/konghou-mule-load-path.scad,cad,concept,reference_only,,none,false,family-spec.csv; string-schedule.csv,self_checked,Source-only load-path scaffold for review; not build-ready and not fabrication authority.
+DXF-001,drawings/konghou-single-row-mule-layout.dxf,dxf,concept,reference_only,,none,false,cad/konghou-mule-load-path.scad,self_checked,Existing mule layout sketch remains pending measured CAD review; not build-ready and not fabrication authority.
+VIS-001,visual-bom-brief.md,image_gen_2_prompt,visual_bom,concept_only,drawing-brief.md,none,false,drawing-brief.md,self_checked,Prompt seed may produce concept visuals only; do not trace into CAD or DXF.
+PRINT-001,print-packet.md,render_preview,derived_preview,reference_only,README.md,none,false,README.md,self_checked,Printable index summarizes packet files and does not create geometry.
+PRINT-002,print-packet.html,render_preview,derived_preview,reference_only,print-packet.md,none,false,print-packet.md,self_checked,HTML print index is derivative documentation only.
