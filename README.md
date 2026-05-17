@@ -6,8 +6,8 @@ Issue: <https://github.com/tonykoop/instrument-maker/issues/154>
 
 Status: L2 V5 build-packet candidate
 
-Fabrication authority: source-only scaffold. The current DXF and OpenSCAD
-files support mule review and load-path planning only. They are not L3
+Fabrication authority: none yet. The current DXF and OpenSCAD files are
+source-only scaffolds for mule review and load-path planning. They are not L3
 build-ready authority until measured string data, reviewed CAD/DXF, supplier
 hardware ratings, and proof-load results are recorded.
 
@@ -49,7 +49,7 @@ This is an L2 prototype packet. It is a canonical repo starting point for the mo
 | `capstone-deck.md` | Review-deck outline for the mule-first promotion decision. |
 | `print-packet.md` / `print-packet.html` | Lightweight printable packet index. |
 | `capstone-manifest.json` | Machine-readable artifact map and readiness flags. |
-| `drawings/konghou-single-row-mule-layout.dxf` | DXF layout sketch for mule review, marked prototype authority only. |
+| `drawings/konghou-single-row-mule-layout.dxf` | DXF layout sketch for mule review, marked review scaffold only. |
 
 ## Promotion Rule
 
