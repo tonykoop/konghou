@@ -44,6 +44,7 @@ This is an L2 prototype packet. It is a canonical repo starting point for the mo
 | `drawing-brief.md` | Required CAD/DXF views and fabrication authority rules. |
 | `visual-output-register.csv` | V5 authority register separating CAD/DXF review artifacts from concept visuals. |
 | `visual-bom-brief.md` | Concept-image guidance that keeps generated images out of fabrication authority. |
+| `photo-shotlist.md` | Prototype photo requirements and caption rules for future public build-log polish. |
 | `cad/konghou-mule-load-path.scad` | Source-only OpenSCAD scaffold for reviewing mule load-path geometry. |
 | `cad/mcp-session-log.md` | V5 provenance log for CAD/creative-tool artifacts and authority status. |
 | `risks.md` | Red-team risks and mitigations for load, fabrication, and evidence quality. |
@@ -51,6 +52,7 @@ This is an L2 prototype packet. It is a canonical repo starting point for the mo
 | `wolfram-starter.wl` | Mersenne-Taylor tension starter for replacing guesses with measured string data. |
 | `capstone-deck.md` | Review-deck outline for the mule-first promotion decision. |
 | `print-packet.md` / `print-packet.html` | Lightweight printable packet index. |
+| `explorer.html` | Studio explorer that gathers packet evidence and release blockers. |
 | `capstone-manifest.json` | Machine-readable artifact map and readiness flags. |
 | `drawings/konghou-single-row-mule-layout.dxf` | DXF layout sketch for mule review, marked review scaffold only. |
 
