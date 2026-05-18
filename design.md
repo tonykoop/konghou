@@ -73,8 +73,10 @@ The mule is not meant to prove the full paired-course sound. It proves load path
 | `cad/konghou-mule-load-path.scad` | `reference_only` CAD scaffold | Replace placeholder parameters with measured string spacing, bridge offsets, frame sections, and reviewed joinery before fabrication use. |
 | `drawings/konghou-single-row-mule-layout.dxf` | `reference_only` mule review layout | Regenerate or mark reviewed after DXF units, layers, dimensions, and load-path callouts match measured CAD data. |
 | `frame-string-scaling.csv` | `reference_only` scaling ledger | Replace blocked scaffold rows with measured mule, supplier, CAD/DXF, and proof-load evidence before scaling the paired-course frame. |
+| `frame-string-evidence-register.csv` | `reference_only` evidence register | Replace blocked rows as each proof-load and hardware coupon result is captured. |
 | `visual-bom-brief.md` prompt seed | `concept_only` | Any generated image stays non-dimensional unless rebuilt from reviewed CAD and logged as a derived preview. |
 | `wolfram-starter.wl` | source-only analysis starter | Runtime validation requires an actual Wolfram execution log and committed outputs. |
+| `proof-load-coupon-plan.md` | `reference_only` proof-load plan | Do not scale paired-course hardware or frame/string claims while this plan rows are blocked. |
 
 ## Promotion Gates
 
