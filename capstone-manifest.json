@@ -1,10 +1,32 @@
 {
   "packet": "konghou-modern-family",
+  "title": "Modern Konghou Family Starter Packet",
+  "instrument": "Konghou",
+  "build_target": "KGH-MULE-01 single-row structural mule",
+  "artifact_focus": "L2 harp / plucked chordophone starter packet for mule-first load-path review",
+  "packet_version": "L2 V5 build-packet candidate",
+  "release_status": "private review / L2 scaffold",
   "issue": "https://github.com/tonykoop/konghou/issues/1",
   "source_migration_context": "https://github.com/tonykoop/instrument-maker/issues/154",
   "readiness": "L2 V5 build-packet candidate",
   "primary_build": "KGH-MULE-01",
   "blocked_build": "KGH-PAIR-01",
+  "family_members": [
+    "KGH-DESK-00 CAD/load-path study",
+    "KGH-MULE-01 single-row structural mule",
+    "KGH-PAIR-01 paired-course mockup",
+    "KGH-FAM-* deferred family"
+  ],
+  "release_gate": {
+    "public_candidate": false,
+    "required_before_public": [
+      "Replace scaffold string data with supplier-backed or measured unit weights.",
+      "Review or regenerate CAD/DXF from measured mule dimensions before any fabrication claim.",
+      "Complete proof-load and 24-hour deflection gates for KGH-MULE-01.",
+      "Commit Wolfram runtime outputs only after a real Wolfram execution environment is used.",
+      "Capture prototype photos that match photo-shotlist.md before public build-log polish."
+    ]
+  },
   "fabrication_authority": {
     "current": [],
     "review_scaffolds": [
@@ -37,6 +59,7 @@
     "drawing-brief.md",
     "visual-output-register.csv",
     "visual-bom-brief.md",
+    "photo-shotlist.md",
     "risks.md",
     "supplier-rfq.md",
     "wolfram-starter.wl",
@@ -47,5 +70,36 @@
     "cad/konghou-mule-load-path.scad",
     "cad/mcp-session-log.md"
   ],
+  "outputs": {
+    "studio_explorer": "explorer.html",
+    "print_packet_markdown": "print-packet.md",
+    "print_packet_html": "print-packet.html",
+    "capstone_deck_markdown": "capstone-deck.md"
+  },
+  "engineering": {
+    "wolfram": [
+      {
+        "source_file": "wolfram-starter.wl",
+        "cloud_url": "",
+        "cloud_path": "wolfram-starter.wl",
+        "kind": "local-wl",
+        "permission": "local"
+      }
+    ],
+    "cad": [
+      {
+        "source_file": "cad/konghou-mule-load-path.scad",
+        "kind": "openscad-source",
+        "status": "source-only scaffold"
+      }
+    ],
+    "drawings": [
+      {
+        "source_file": "drawings/konghou-single-row-mule-layout.dxf",
+        "kind": "dxf-review-layout",
+        "status": "pending measured review"
+      }
+    ]
+  },
   "promotion_gate": "All KGH-MULE-01 proof-load and measured-update checks must pass before KGH-PAIR-01 is authorized."
 }
