@@ -21,9 +21,13 @@ hardware ratings, and proof-load results are recorded.
 4. Update `string-schedule.csv` with measured speaking lengths, real string data, and measured tension.
 5. Promote to `KGH-PAIR-01` only after every mule gate passes.
 
+## Cultural And Public Readiness
+
+This packet is a modern, paired-course konghou-inspired engineering prototype. It is not a culturally authoritative konghou, not a historical reconstruction, and not a fabrication-authoritative package. See `cultural-provenance.md` for the authority statement, source gaps, and cultural-review gate, and `public-readiness.md` for the binding readiness ladder, gate ledger, and the polish-claim block list that every future PR and any public copy must respect.
+
 ## Readiness
 
-This is an L2 prototype packet. It is a canonical repo starting point for the modern konghou family, but it is not a build-ready final double-row instrument plan. Dimensions are scaffold envelopes and gate definitions until confirmed by measured drawings, CAD, real strings, and proof-load testing.
+This is an L2 prototype packet. It is a canonical repo starting point for the modern konghou family, but it is not a build-ready final double-row instrument plan. Dimensions are scaffold envelopes and gate definitions until confirmed by measured drawings, CAD, real strings, and proof-load testing. `public-readiness.md` is the single source of truth if any other file in this repo disagrees about readiness level.
 
 ## File Map
 
@@ -50,6 +54,8 @@ This is an L2 prototype packet. It is a canonical repo starting point for the mo
 | `cad/konghou-mule-load-path.scad` | Source-only OpenSCAD scaffold for reviewing mule load-path geometry. |
 | `cad/mcp-session-log.md` | V5 provenance log for CAD/creative-tool artifacts and authority status. |
 | `risks.md` | Red-team risks and mitigations for load, fabrication, and evidence quality. |
+| `cultural-provenance.md` | Authority statement, source gaps, and cultural-review gate; engineering prototype scope only. |
+| `public-readiness.md` | Binding readiness ladder, gate ledger, and polish-claim block list; single source of truth for readiness level. |
 | `supplier-rfq.md` | Draft sourcing note for strings, pins, frame stock, and measurement tools. |
 | `wolfram-starter.wl` | Mersenne-Taylor tension starter for replacing guesses with measured string data. |
 | `capstone-deck.md` | Review-deck outline for the mule-first promotion decision. |
