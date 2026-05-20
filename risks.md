@@ -18,3 +18,5 @@
 ## Readiness Risk
 
 This packet is useful because it creates a canonical path, but it is intentionally not a final konghou plan. A future PR should promote the packet only after the mule build log contains real deflection, tension, and serviceability data.
+
+- **Cultural authority overclaim:** Engineering language must not silently extend into traditional, authentic, heritage, or historical-reconstruction framing. See `cultural-provenance.md` for the authority statement and open cultural-review gate, and `public-readiness.md` for the polish-claim block list that binds every future PR and public-facing artifact.
