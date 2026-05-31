@@ -66,7 +66,7 @@
     "photo-shotlist.md",
     "risks.md",
     "supplier-rfq.md",
-    "wolfram-starter.wl",
+    "konghou-starter.wl",
     "capstone-deck.md",
     "print-packet.md",
     "print-packet.html",
@@ -83,9 +83,9 @@
   "engineering": {
     "wolfram": [
       {
-        "source_file": "wolfram-starter.wl",
+        "source_file": "konghou-starter.wl",
         "cloud_url": "",
-        "cloud_path": "wolfram-starter.wl",
+        "cloud_path": "konghou-starter.wl",
         "kind": "local-wl",
         "permission": "local"
       }
