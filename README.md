@@ -57,7 +57,7 @@ This is an L2 prototype packet. It is a canonical repo starting point for the mo
 | `cultural-provenance.md` | Authority statement, source gaps, and cultural-review gate; engineering prototype scope only. |
 | `public-readiness.md` | Binding readiness ladder, gate ledger, and polish-claim block list; single source of truth for readiness level. |
 | `supplier-rfq.md` | Draft sourcing note for strings, pins, frame stock, and measurement tools. |
-| `wolfram-starter.wl` | Mersenne-Taylor tension starter for replacing guesses with measured string data. |
+| `konghou-starter.wl` | Mersenne-Taylor tension starter for replacing guesses with measured string data. |
 | `capstone-deck.md` | Review-deck outline for the mule-first promotion decision. |
 | `print-packet.md` / `print-packet.html` | Lightweight printable packet index. |
 | `explorer.html` | Studio explorer that gathers packet evidence and release blockers. |

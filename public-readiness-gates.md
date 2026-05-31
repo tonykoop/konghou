@@ -47,4 +47,4 @@ The following are tracked but do not block L2 packet publication:
 - Hero render / exploded-diagram images (concept-only; acceptable at L2 with
   VOR caption marking them concept-only)
 - Assembly-plate PDF (required only at L3 print-readiness)
-- Wolfram runtime evidence (L2 accepts `wolfram-starter.wl` as source-only)
+- Wolfram runtime evidence (L2 accepts `konghou-starter.wl` as source-only)
