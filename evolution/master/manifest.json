@@ -1,0 +1,42 @@
+{
+  "product": "konghou",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "cad/konghou-mule-load-path.scad",
+      "format": "openscad-source",
+      "sha256": "ec9f6d6c94570893f550130d166cd132f8bebebb8e676219f5b9f1ed38dea83e",
+      "authority": "reference_only",
+      "lossy": false,
+      "notes": "L2 review scaffold for the single-row structural mule (KGH-MULE-01) load path. NOT fabrication authority until every parameter traces to measured/reviewed data. Kept as-is (not rewritten) this pass."
+    },
+    {
+      "path": "family-spec.csv",
+      "format": "design-table",
+      "sha256": "738fa98224925533f11ff32400c6c6d257ae9a4fcf808f1d8d1235aa3d12f94c",
+      "authority": "reference_only",
+      "lossy": false,
+      "notes": "Staged family readiness ledger (S0-S3). Controlling source for the mule scaffold; no dimension is final fabrication authority."
+    },
+    {
+      "path": "string-schedule.csv",
+      "format": "design-table",
+      "sha256": "ba3b7aa8cea7ce42b26f9148e3d8c2b55e45f500e83757e2dccd95f234be5881",
+      "authority": "reference_only",
+      "lossy": false,
+      "notes": "Mule string schedule (KGH-MULE-01 planned, KGH-PAIR-01 blocked). Tensions vendor_required; no measured unit weight yet."
+    },
+    {
+      "path": "konghou-starter.wl",
+      "format": "wolfram-source",
+      "sha256": "6cefaf2e3210d90f8a86057ceb3902b653a95bf9a00ebebe8624f1d7378f8ad5",
+      "authority": "derived_preview",
+      "lossy": false,
+      "notes": "Wolfram starter scaffold; source-only, not executed. L2 evidence."
+    }
+  ],
+  "notes": "OpenSCAD mule-load-path scaffold + family-spec/string-schedule are the current review masters; all remain reference-only (not fabrication authority). No STEP export yet (SolidWorks export is Windows-side, out of scope for this intake pass). Gate A (Alpha workspace compile) not yet run."
+}

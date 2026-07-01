@@ -15,3 +15,5 @@ source-control provenance for review, not evidence of tool execution.
 | 2026-05-17T16:08:46Z | design-table | print-packet.md | unknown | README.md | reference_only | Print index summarizes packet files and adds no geometry. |
 | 2026-05-17T16:08:46Z | design-table | print-packet.html | unknown | print-packet.md | reference_only | HTML print index is derivative documentation only. |
 | 2026-05-17T15:52:45Z | wolfram | konghou-starter.wl | unknown | string-schedule.csv | analysis_only | Source-only starter; no runtime execution claimed. |
+| 2026-07-01T00:00:00Z | openscad | cad/konghou-mule-load-path.scad | fable-v5-refresh-2026-07-01 | family-spec.csv; string-schedule.csv | cad_source | V5 refresh: existing mule scaffold kept as-is (not rewritten). OpenSCAD render check: pass (openscad -o STL, exit 0). Still reference_only review scaffold, not fabrication authority. |
+| 2026-07-01T00:00:00Z | claude-code (Fable 5) | evolution/master/manifest.json; evolution/design-intent.md; evolution/revisions.md | fable-v5-refresh-2026-07-01 | family-spec.csv; string-schedule.csv | analysis_only | Evolution-pipeline Stage 0 intake of current review masters. Gate A not run. |
