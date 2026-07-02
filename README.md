@@ -53,6 +53,7 @@ This is an L2 prototype packet. It is a canonical repo starting point for the mo
 | `photo-shotlist.md` | Prototype photo requirements and caption rules for future public build-log polish. |
 | `cad/konghou-mule-load-path.scad` | Source-only OpenSCAD scaffold for reviewing mule load-path geometry. |
 | `cad/mcp-session-log.md` | V5 provenance log for CAD/creative-tool artifacts and authority status. |
+| `evolution/` | Evolution-pipeline Stage 0 intake (design intent, master manifest, revisions). |
 | `risks.md` | Red-team risks and mitigations for load, fabrication, and evidence quality. |
 | `cultural-provenance.md` | Authority statement, source gaps, and cultural-review gate; engineering prototype scope only. |
 | `public-readiness.md` | Binding readiness ladder, gate ledger, and polish-claim block list; single source of truth for readiness level. |
